@@ -1,4 +1,4 @@
-## End to end ML project using CICD 
+## End to end ML project using Microsoft Azure Web Apps and MLOPS
 
 
 ## Run from terminal:
