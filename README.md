@@ -13,7 +13,7 @@ c)To use Azure Web Apps for building and hosting application on Azure cloud.
 1.Created container registry in Container Registries in Azure portal.Store the access keys of the container by saving username and password to log in while pushing docker to this container registry.
 [![Picture1.png](https://i.postimg.cc/Hn78qGbb/Picture1.png)](https://postimg.cc/sGs2WN62)
 2.Build docker image ,push the docker image to Azure container registry ,also  visible on docker desktop.
-# Run from terminal:
+*Run from terminal:*
 docker build -t testdockerkast.azurecr.io/application:latest .
 docker login testdockerkast.azurecr.io
 docker push testdockerkast.azurecr.io/application:latest
